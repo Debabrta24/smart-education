@@ -1,0 +1,30 @@
+// eta edit korbi ar kono code e edit korbi na
+
+{
+  "Class 1": {
+    "Math": {
+      "Unit 1": [{"name": "MathBlaster C1U1", "url": "https://www.mathblaster.com/"}],
+      "Unit 2": [{"name": "GeoGebra C1U2", "url": "https://www.geogebra.org/"}]
+    },
+    "Science": {
+      "Unit 1": [{"name": "PhET C1U1", "url": "https://phet.colorado.edu/"}],
+      "Unit 2": [{"name": "ChemCollective C1U2", "url": "http://chemcollective.org/"}]
+    }
+  },
+  "Class 2": {
+    "Math": {
+      "Unit 1": [{"name": "MathSim C2U1", "url": "https://www.math.com/"}],
+      "Unit 2": [{"name": "GeoSim C2U2", "url": "https://www.geogebra.org/"}]
+    }
+  },
+  "Class 3": {
+    "Science": {
+      "Unit 1": [{"name": "PhET C3U1", "url": "https://phet.colorado.edu/"}]
+    }
+  },
+   "looking for calculator": {
+    "calculator": {
+      "Unit 1": [{"name": "PhET C3U1", "url": "https://phet.colorado.edu/"}]
+    }
+  }
+}

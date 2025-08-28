@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Learning Platform</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="container" id="login-section">
+        <h1>Student Portal</h1>
+        <input type="text" id="student-name" placeholder="Enter Your Name" required>
+        <select id="student-class">
+            <option value="">Select Class</option>
+            <option value="Class 1">Class 1</option>
+            <option value="Class 2">Class 2</option>
+            <option value="Class 3">Class 3</option>
+            <option value="looking for calculator">looking for calculator</option>
+
+            <!-- eikhnate valu gulo add korbi like 11 12  -->
+        </select>
+        <button id="go-btn">Go</button>
+    </div>
+
+    <div class="container" id="main-section" style="display:none;">
+        <h2>Welcome, <span id="student-display-name"></span></h2>
+        <h3>Select a Subject</h3>
+        <div id="subject-list"></div>
+        <button id="back-to-class">Back to Class Selection</button>
+    </div>
+    <div class="container" id="unit-section" style="display:none;">
+        <h2>Choose Unit for <span id="current-subject"></span></h2>
+        <div id="unit-list"></div>
+
+        <h3>Or Search All Emulators in This Subject</h3>
+        <input type="text" id="subject-search" placeholder="Search emulators across all units">
+        <div class="results" id="subject-search-results"></div>
+
+        <button id="back-to-main">Back to Subjects</button>
+    </div>
+
+
+    
+    <div class="container" id="search-section" style="display:none;">
+        <h2>Search Emulator for <span id="current-subject-unit"></span></h2>
+        <input type="text" id="unit-search-input" placeholder="Search emulator in this unit...">
+        <div class="results" id="search-results"></div>
+        <button id="back-to-units">Back to Units</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
